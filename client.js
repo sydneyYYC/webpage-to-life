@@ -1,5 +1,5 @@
 "use strict";
 
 //render on HTML page using JS
-const aboutHeading = "Our Story";
+const aboutHeading = "The Story";
 let aboutRender = document.querySelector("#about-heading").innerHTML = aboutHeading;
