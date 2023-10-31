@@ -8,12 +8,13 @@ let aboutRender = document.querySelector("#about-heading").innerHTML = aboutHead
 // making an image gallery in js
 // image gallery 
 
+//bug my images will load but not with alt text
 const images = [
 'assets/gallery/01-greens.jpg',
-// 'assets/gallery/02-jacket.jpg alt="red orange and white crochet jacket"',
-// 'assets/gallery/03-purplehat.jpg alt="purple hat"',
-// 'assets/gallery/04-sock.jpg alt="red and white crochet large sock"',
-// 'assets/gallery/05-babyhat.jpg alt="blue red and yellow baby hat"'
+'assets/gallery/02-jacket.jpg',
+'assets/gallery/03-purplehat.jpg',
+'assets/gallery/04-sock.jpg',
+'assets/gallery/05-babyhat.jpg'
 ];
 console.log(images);
 // gets image container
@@ -25,7 +26,7 @@ console.log(images);
       // get image source
       img.src = images[i];
       // appends child - adds each image at the end of the array
-      let displayImg = container.appendChild(img).innerHTML;
+      let displayImg = container.appendChild(img);
   }
 
   // should display image
