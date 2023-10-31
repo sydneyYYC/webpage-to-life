@@ -30,5 +30,6 @@ function myNav() {
     x.style.display = "block";
   }
 }
+
 // connect myNav function to menu icon
 document.querySelector("#nav-toggle").addEventListener("click", myNav)

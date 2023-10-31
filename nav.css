@@ -1,5 +1,17 @@
+/* might change later but this lets me view all of my mobile nav media queries at once which is easiest for building */
+
 @media(max-width: 600px) {
   #nav-links {
     display: none
+  }
+}
+
+@media(min-width: 600px){
+  #nav-logo {
+    display: none
+  }
+
+  #nav-links {
+    display: flex;
   }
 }
