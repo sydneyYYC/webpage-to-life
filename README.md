@@ -20,4 +20,10 @@ now im having issues where the toggle is automatically refreshing the page and r
 
 still running into bug where if menu is closed in mobile and then stretched links will disappear WILL FIX LATER
 
+JS image gallery found on line 12
+
+Using a For loop to render images
+
+// running into bug where i can render the images but not add alt text. maybe i need to append the alt text with a seperate loop? WILL FIX LATER
+
 
