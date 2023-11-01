@@ -61,9 +61,11 @@ const images = [
     videoToggle.classList.toggle("visible");
     // this should make it so that when one is visible the other isnt
     if(videoToggle.classList == true){
+      // if video resources are off written is on
       articleToggle.classList.add("written-visible");
   }
   else{
+    // otherwise written is off 
     articleToggle.classList.add("visible");
   }
   }
@@ -73,4 +75,6 @@ const images = [
 
   // connect to the html
 
+
+  // 
 

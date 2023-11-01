@@ -5,17 +5,17 @@ display: none;
 
 #video-gallery {
   display: block;
+  padding: 2rem;
 }
 
-.display-none {
-  display:none
-}
+
 
 .writen-visible {
   display: block;
+  padding: 2rem;
 }
 
 #article-gallery {
   display: block;
-  
+
 }
