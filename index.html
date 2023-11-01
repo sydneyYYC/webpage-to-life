@@ -23,14 +23,21 @@
     </div>
   </nav>
   <header class="my-2 ml-4 flex ">
-    <div class="flex min-w-full justify-between">
-    <h2>Subscribe to newsletter</h2>
-      <div class="px-2">
-      <input id="subscribe-check"type="checkbox">
-      <label>I consent to receive emails from Stitch-to-Stitch</label>
+    <div id="subscribe-header" class="flex min-w-full justify-between">
+    <h2 class="text-md font-semibold">Subscribe to newsletter</h2>
+      <div id='subscribe-check' class="px-2">
+      <label for="subscribe" class="text-md font-semibold">I consent to receive emails from Stitch-to-Stitch</label>
+      <input id="sub-checkbox"type="checkbox">
       </div>
     </div>
   </header>
+  <section>
+    <div id="name-input" class="my-2 ml-4">
+      <label for="email" class="text-md">Please enter your email here</label>
+      <input type="text" id="email" required minlength="10" maxlength="20" size="20" class="bg-slate-100 text-white border-2"/>
+      <button id="enter-button" class="bg-amber-300 px-2 rounded-full">submit</button>
+    </div>
+  </section>
   <main class=" flex flex-auto flex-col">
     <!-- must add mobile margins -->
     <section id="about" class="flex content-center flex-col justify-center m-0 min-w-full bg-slate-200 p-2">
@@ -46,7 +53,7 @@
     </section>
     <section id="resources"class="m-0 p-8 bg-slate-400 min-w-full flex justify-center flex-col content-center">
       <h3 class="text-2xl m-auto my-2">Resources</h3>
-      <button class="bg-amber-300 max-w-max m-auto px-4 py-2 rounded-full text-slate-800 font-bold hover:bg-amber-100" id="toggle-button">VIDEO / ARTICLES</button>
+      <button class="bg-amber-300 max-w-max m-auto px-4 py-2 rounded-full text-slate-800 font-bold hover:bg-amber-100" id="toggle-button">VIDEO OR ARTICLES</button>
       <div id="resources-box"class=" mx-auto my-4 max-w-fit bg-slate-100 text-slate-950 p-4 rounded-md" >
         <div id="video-resources" class="visible">
           <h4 class="m-auto text-xl font-bold mb-4">Video Resources</h4>

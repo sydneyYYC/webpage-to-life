@@ -5,14 +5,17 @@
 ### Attributions
 
 ### js function for mobile nav toggle 
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar - mobile nav bar help
+
+ [mobile nav bar help](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar)
 
 #### mobile nav found on line 11 
 
 ### js function loop that creates images 
-https://www.geeksforgeeks.org/how-to-display-images-from-an-array-in-javascript/
+[images-from-an-array](https://www.geeksforgeeks.org/how-to-display-images-from-an-array-in-javascript/)
 
-issue with nav menu disappearing and not reappearing after nav has been clicked . 
+issue with nav menu disappearing and not reappearing after nav has been clicked .
+
+
 ended up erasing the href to javascript in html - talked to tony and he said it  was just a different way to connect / call the function but its not the best way- better to add a eventListener in the js instead. leftover it was causing issues w the toggle. 
 
 
@@ -28,7 +31,19 @@ Using a For loop to render images
 
 ### class visible toggle 
 
-https://www.w3schools.com/howto/howto_js_toggle_class.asp toggle research,
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else if else statement,
+[toggle research](https://www.w3schools.com/howto/howto_js_toggle_class.asp)
+[if else statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-https://www.w3schools.com/howto/howto_js_add_class.asp used this for add class for my if else statement, 
+[used this for add class for my if else statement](https://www.w3schools.com/howto/howto_js_add_class.asp) 
+
+
+### checkbox alert
+
+[check if checkbox is checked code](https://stackoverflow.com/questions/9887360/how-can-i-check-if-a-checkbox-is-checked)
+
+#### checkbox alert on line 81
+
+### subscribe text eraser 
+[clear input fields](https://linuxhint.com/clear-input-fields-javascript/) 
+
+#### function on line 99

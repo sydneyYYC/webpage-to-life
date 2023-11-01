@@ -76,5 +76,32 @@ const images = [
   // connect to the html
 
 
-  // 
+  // checkbox 
 
+  function subscribeAlert() {
+    // grab the checkbox
+    let check = document.getElementById('#sub-checkbox');
+    // this line 85 is messed up
+    if (check.checked) {
+      // insert Thank you into the header
+      document.querySelector("#subscribe-header").innerHTML = 'Thank You!';
+        // alert("Thank You!");
+    } else {
+      // sadness for my broken code
+      console.log(':(');
+    }
+}
+// click listener for checkbox to run function
+document.querySelector("#subscribe-check").addEventListener("click", subscribeAlert);
+
+// function to submit email
+
+function clearInput(){
+  const getValue= document.getElementById("email");
+    if (getValue.value !="") {
+        getValue.value = "";
+    }
+    alert("Thank You!");
+}
+
+document.querySelector('#enter-button').addEventListener("click", clearInput);
