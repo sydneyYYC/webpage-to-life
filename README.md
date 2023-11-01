@@ -4,12 +4,12 @@
 
 ### Attributions
 
-js function for mobile nav toggle 
+### js function for mobile nav toggle 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar - mobile nav bar help
 
-mobile nav found on line 11 
+#### mobile nav found on line 11 
 
-js function loop that creates images 
+### js function loop that creates images 
 https://www.geeksforgeeks.org/how-to-display-images-from-an-array-in-javascript/
 
 issue with nav menu disappearing and not reappearing after nav has been clicked . 
@@ -18,12 +18,15 @@ ended up erasing the href to javascript in html - talked to tony and he said it 
 
 now im having issues where the toggle is automatically refreshing the page and resetting the page when clicked -- fixed , had added a link to the nav which was refreshing the page , making nav refresh when clicked 
 
-still running into bug where if menu is closed in mobile and then stretched links will disappear WILL FIX LATER
+still running into bug where if menu is closed in mobile and then stretched to full - links will disappear WILL FIX LATER
 
-JS image gallery found on line 12
+#### JS image gallery found on line 12
 
 Using a For loop to render images
 
-// running into bug where i can render the images but not add alt text. maybe i need to append the alt text with a seperate loop? WILL FIX LATER
+// running into bug where i can render the images but not add alt text. maybe i need to append the alt text with a seperate loop? 
 
+### class visible toggle 
 
+https://www.w3schools.com/howto/howto_js_toggle_class.asp toggle research,
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else if else statement,

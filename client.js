@@ -45,26 +45,31 @@ const images = [
       // get image source
       img.src = images[i];
       // appends child - adds each image at the end of the array
-      let displayImg = container.appendChild(img);
+      container.appendChild(img);
   }
-
-  // should display images in gallery
-  document.querySelector('#gallery-box').innerHTML = displayImg;
-
 
   // resources toggle 
 
   // step 1 . make the function to toggle
   function toggResources() {
     // add visible function to each 
-    const videoElement = document.getElementById("videos-gallery");
+    const videoToggle = document.getElementById("video-resources");
+    // console.log("hi");
+    const articleToggle = document.getElementById("article-gallery")
     // make a css file that will toggle the links to be visible or not
-    videoElement.classList.toggle("")
+    // change visibility from on to off
+    videoToggle.classList.toggle("visible");
+    if(videoToggle == "visible"){
+      articleToggle = articleToggle.classList.toggle(".visible");
+  }
+  else{
+      articleToggle = "visible";
+  }
+
   }
 
   // add event listener on click to toggle button 
-
-  // change visibility from on to off
+  document.querySelector("#toggle-button").addEventListener("click", toggResources);
 
   // connect to the html
 

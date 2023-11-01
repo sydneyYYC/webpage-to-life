@@ -1,0 +1,16 @@
+
+.visible{
+display: none;
+}
+
+#video-gallery {
+  display: flex;
+}
+
+.display-none {
+  display:none
+}
+
+#article-gallery {
+  display: flex;
+}
