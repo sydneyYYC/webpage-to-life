@@ -52,3 +52,20 @@ const images = [
   document.querySelector('#gallery-box').innerHTML = displayImg;
 
 
+  // resources toggle 
+
+  // step 1 . make the function to toggle
+  function toggResources() {
+    // add visible function to each 
+    const videoElement = document.getElementById("videos-gallery");
+    // make a css file that will toggle the links to be visible or not
+    videoElement.classList.toggle("")
+  }
+
+  // add event listener on click to toggle button 
+
+  // change visibility from on to off
+
+  // connect to the html
+
+
