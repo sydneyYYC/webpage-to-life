@@ -30,3 +30,5 @@ Using a For loop to render images
 
 https://www.w3schools.com/howto/howto_js_toggle_class.asp toggle research,
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else if else statement,
+
+https://www.w3schools.com/howto/howto_js_add_class.asp used this for add class for my if else statement, 

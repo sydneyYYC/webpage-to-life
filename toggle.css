@@ -4,13 +4,18 @@ display: none;
 }
 
 #video-gallery {
-  display: flex;
+  display: block;
 }
 
 .display-none {
   display:none
 }
 
+.writen-visible {
+  display: block;
+}
+
 #article-gallery {
-  display: flex;
+  display: block;
+  
 }

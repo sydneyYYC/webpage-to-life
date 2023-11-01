@@ -55,17 +55,17 @@ const images = [
     // add visible function to each 
     const videoToggle = document.getElementById("video-resources");
     // console.log("hi");
-    const articleToggle = document.getElementById("article-gallery")
+    const articleToggle = document.getElementById("article-gallery");
     // make a css file that will toggle the links to be visible or not
     // change visibility from on to off
     videoToggle.classList.toggle("visible");
-    if(videoToggle == "visible"){
-      articleToggle = articleToggle.classList.toggle(".visible");
+    // this should make it so that when one is visible the other isnt
+    if(videoToggle.classList == true){
+      articleToggle.classList.add("written-visible");
   }
   else{
-      articleToggle = "visible";
+    articleToggle.classList.add("visible");
   }
-
   }
 
   // add event listener on click to toggle button 
