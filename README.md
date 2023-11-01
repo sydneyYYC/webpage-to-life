@@ -1,6 +1,6 @@
 # CPNT262 Webpage to Life
 ## Sydney Bruce
-## live
+## [live](https://sydneyyyc.github.io/webpage-to-life/)
 
 ### Attributions
 
